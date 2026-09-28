@@ -9,7 +9,7 @@
 ## ✨ Features
 
 - **Native header capture** (toggleable in Advanced Settings): automatically reuses the Discord client's own request fingerprints instead of hardcoding any values; gracefully falls back on capture failure without affecting normal use.
-- **Variable pacing**: randomizes delete and search intervals to mimic human behavior — no more metronome-like fixed intervals.
+- **Variable pacing**: randomizes delete and search intervals — no more metronome-like fixed intervals.
 - **Rate-limit protection**: automatically backs off and retries when rate-limited, never gets stuck on a single message.
 - **Bilingual UI**: defaults to Chinese, switchable to English or follow browser language.
 - **Floating button**: draggable circular button in the bottom-right corner with position memory; independent of Discord's DOM, so Discord redesigns won't make it disappear.
